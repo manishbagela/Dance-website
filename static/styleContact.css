@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+
+*{
+  margin : 0px;
+  padding : 0px;
+  /* font-family: 'Seaweed Script', cursive; */
+  box-sizing: border-box;
+  
+}
+
+#logo{
+  display: flex;
+  align-items: center;
+  color: wheat;
+  margin: 0 20px;
+  font-family: 'Seaweed Script', cursive;
+  /* flex-direction: row; */
+}
+#logo img{
+  filter: invert(1);
+  background-color: rgb(124, 26, 26);
+  height: 42px;
+  border-radius: 22px;
+  margin-right: 12px;
+}
+#navbar {
+  display: flex;
+  background-color:rgb(124, 26, 26);
+  font-family: 'Seaweed Script', cursive;
+  /* padding: 0px 28px; */
+  align-items: center;
+  height: 80px;
+}
+
+
+#navbar ul{
+  display: flex;
+  align-items: center;
+  width: 60%;
+  /* border: 2px solid black; */
+  margin-left: 420px;
+}
+#navbar ul li{
+  list-style: none;
+}
+#navbar li a{
+  text-decoration: none;
+  padding: 23px 35px;
+  color: wheat;
+  font-size: 23px ;
+}
+h1{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  padding: 60px 0;
+}
+.myForm{
+  background: url('https://cdn.pixabay.com/photo/2016/05/06/17/06/ballerinas-1376250_960_720.jpg') center center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 800px;
+
+  width: 100%;
+}
+.myForm div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 65vh;
+
+}
+.myInput{
+width: 36vw;
+padding: 1px 4px;
+margin: 12px 0;
+border: 10px solid white;
+border-radius: 21px;
+outline: none;
+font-size: 15px;
+
+}
+.btn{
+  padding: 12px 20px;
+  margin-top: 22px;
+  font-size: 15px;
+  border: 2px solid black;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: rgb(124, 26, 26);
+  color: wheat;
+}
+#footer{
+  height: 35px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  
